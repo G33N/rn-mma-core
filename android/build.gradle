@@ -34,4 +34,6 @@ allprojects {
         jcenter()
         maven { url 'https://www.jitpack.io' }
     }
+    buildDir = "$rootDir/../app_builds/android"
+
 }
