@@ -1,6 +1,11 @@
 {
   "name": "rncore",
+<<<<<<< HEAD
   "version": "0.0.1",
+=======
+  "version": "0.1.0",
+  "private": true,
+>>>>>>> 86ac70bf18c0a65072e71c578a61c82f59869fac
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
