@@ -726,6 +726,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@g33n/rn-ui-kit@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@g33n/rn-ui-kit/-/rn-ui-kit-1.4.0.tgz#87ff363b652c41b576205fc4d4a3b0c47ec3fdb3"
+  integrity sha512-caYfbjM/yfRhH82lRHoP8g+AXhOE0H2strEJWFwT9Sj4sLV8JmWm2mHYRrUs5YN3EzGvca9/vzdHIAVYrzK79g==
+  dependencies:
+    package-lock "^1.0.4"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1558,6 +1565,11 @@ async@^2.4.0:
   dependencies:
     lodash "^4.17.14"
 
+asyncc@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/asyncc/-/asyncc-2.0.4.tgz#92ad408c13659d2a15f3b3c3f2d056805a4cc9f6"
+  integrity sha512-5ohHLrRC6ZJ7ypVlJh3XJlINBdErz7VeQnNNLXq2T9hVsph58x49oykgg+KNbpnOiMF0X2vDmR2i2LVtWBL7Mw==
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
@@ -2041,6 +2053,11 @@ commander@^2.19.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+
+commander@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
+  integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
 
 commander@~2.13.0:
   version "2.13.0"
@@ -4286,6 +4303,16 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash.get@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+  integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
+
+lodash.pick@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
+  integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
+
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
@@ -5158,6 +5185,18 @@ p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
+
+package-lock@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/package-lock/-/package-lock-1.0.4.tgz#f62e3525a950fe40f59cc4b8bd9242c6ebbc6b73"
+  integrity sha512-GaRzx5SCcCiM/21qKKIzAcXVHKyRl4X13xJzz05Pfl1wxzzUYy/LvFUDRr+qwfjY0WWkor5Znff54h+raxBoDA==
+  dependencies:
+    asyncc "^2.0.4"
+    commander "^5.1.0"
+    glob "^7.1.6"
+    lodash.get "^4.4.2"
+    lodash.pick "^4.4.0"
+    traverse "^0.6.6"
 
 parent-module@^1.0.0:
   version "1.0.1"
@@ -6463,6 +6502,11 @@ tr46@^1.0.1:
   integrity sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=
   dependencies:
     punycode "^2.1.0"
+
+traverse@^0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
+  integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
 
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
