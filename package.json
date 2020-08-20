@@ -16,7 +16,13 @@
     "start": "react-native start",
     "lint": "eslint ."
   },
+  "bin": {
+    "rn-mma-core": "./bin/index.js"
+  },
   "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "inquirer": "^7.3.3",
     "react": "16.13.1",
     "react-native": "0.63.2"
   },
