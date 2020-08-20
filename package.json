@@ -1,6 +1,15 @@
 {
-  "name": "rncore",
+  "name": "@g33n/rncore",
   "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G33N/rn-mma-core.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Matias Celiz <mceliz@enlaceit.com.ar>",
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
