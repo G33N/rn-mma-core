@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "@g33n/rn-core",
   "version": "0.4.0",
+=======
+  "name": "@g33n/rncore",
+  "version": "0.5.0",
+>>>>>>> d93bac9d2360324571c6c992c75f895bfa85130f
   "repository": {
     "type": "git",
     "url": "git+https://github.com/G33N/rn-mma-core.git"
