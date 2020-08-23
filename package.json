@@ -14,7 +14,9 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "ios:beta": "fastlane ios beta",
+    "android:beta": "fastlane android beta"
   },
   "bin": {
     "rn-mma-core": "./bin/index.js"
