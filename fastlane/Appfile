@@ -1,0 +1,4 @@
+app_identifier "com.rncore"
+# Google settings
+json_key_file "./play-store-key.json"
+# Apple settings
