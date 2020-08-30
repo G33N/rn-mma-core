@@ -1,4 +1,4 @@
-app_identifier "com.rncore"
+package_name "com.rncore"
 # Google settings
-json_key_file "./play-store-key.json"
+json_key_file "./fastlane/play-store-key.json"
 # Apple settings
